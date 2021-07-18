@@ -20,13 +20,14 @@ export default function Forecast(props) {
    }   
 const styles = StyleSheet.create({
     backText: {
-        backgroundColor: 'rgba(0,0,0,0.4)'
+        backgroundColor: 'rgba(0,0,0,0.4)',
+        width: 400
     },
     mainText: {
         textAlign: 'center',
-        marginTop: 50,
+        margin: 50,
         fontSize: 30,
-        color: '#665954'
+        color: '#FFFFFF'
     },
     desText: {
         textAlign: 'center',

@@ -29,9 +29,9 @@ export default function Weather(props) {
     return (
         <ImageBackground source={require('../sky.jpg')} style={styles.backdrop}>
             <Text style={styles.desText}> 
-                Zip code is
+                The weather in
                 <Text> 
-                    {props.zipCode}.
+                    "{props.zipCode}."
                 </Text>
             </Text>
             
@@ -44,15 +44,17 @@ export default function Weather(props) {
 const styles = StyleSheet.create({
     backdrop: {
         flexDirection: 'column',
+        width: 400,
         alignItems: 'center',
         width: '100%',
         height: '100%'
     },
     desText: {
         backgroundColor: 'rgba(0,0,0,0.4)',
+        width: 400,
         textAlign: 'center',
         fontSize: 30,
-        color: '#665954'
+        color: '#FFFFFF'
     }
 })
    
