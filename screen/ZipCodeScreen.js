@@ -10,6 +10,9 @@ const availableZipItems = [
     { place: 'Chiangmai', code: '50000' },
     { place: 'Khonkaen', code: '40000' },
     { place: 'Chonburi', code: '20000' },
+    { place: 'Pattani', code: '94000' },
+    { place: 'Yala', code: '95000' },
+    { place: 'Narathiwath', code: '96000' },
    ]
 
    const ZipItem = ({place, code, navigation}) => (
@@ -50,14 +53,15 @@ export default function ZipCodeScreen(){
         height: '100%',
     },
        backText: {
+          fontSize: 50,
           backgroundColor: 'rgba(0,0,0,0.4)',
           width: 400,
-          fontSize: 50
+          
        },
        ZipItem: {
            textAlign: 'center',
            
-           margin: 63,
+           margin: 40,
            color: '#FFFFFF',
            flexDirection: 'row',
            justifyContent: 'space-between'
