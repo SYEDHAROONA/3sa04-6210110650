@@ -14,8 +14,9 @@ export default function Forecast(props) {
             <Text style={styles.mainText}>   
                 <Text>Temperature{"\n"}</Text>
                 {props.temp}
-                <Text>°C</Text>
+                <Text style={styles.mainText}>°C</Text>
             </Text>
+            <Text  style={styles.mainText}>Good Luck</Text>
         
         </View>
     );
