@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'rgba(0,0,0,0.4)'
     },
     mainText: {
+        textAlignVertical: 'center',
         textAlign: 'center',
         marginTop: 50,
         fontSize: 30,
