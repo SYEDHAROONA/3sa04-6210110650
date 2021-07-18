@@ -8,9 +8,11 @@ export default function Forecast(props) {
                 {props.main}
             </Text>
             <Text style={styles.mainText}>
+                <Text>Cloud type{"\n"}</Text>
                 {props.description}
             </Text>
             <Text style={styles.mainText}>   
+                <Text>Temperature{"\n"}</Text>
                 {props.temp}
                 <Text>°C</Text>
             </Text>

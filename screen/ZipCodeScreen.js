@@ -47,15 +47,16 @@ export default function ZipCodeScreen(){
         width: 400,
         alignItems: 'center',
         width: '100%',
-        height: '100%'
+        height: '100%',
     },
        backText: {
           backgroundColor: 'rgba(0,0,0,0.4)',
-          width: 400
+          width: 400,
+          fontSize: 50
        },
        ZipItem: {
            textAlign: 'center',
-           fontSize: 50,
+           
            margin: 63,
            color: '#FFFFFF',
            flexDirection: 'row',

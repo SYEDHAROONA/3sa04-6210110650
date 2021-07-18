@@ -29,7 +29,7 @@ export default function Weather(props) {
     return (
         <ImageBackground source={require('../sky.jpg')} style={styles.backdrop}>
             <Text style={styles.desText}> 
-                The weather in
+                The weather in{"\n"}
                 <Text> 
                     "{props.zipCode}."
                 </Text>
